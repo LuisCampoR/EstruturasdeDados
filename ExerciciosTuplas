@@ -1,12 +1,10 @@
 #Tuplas
 
-#1. Crie uma tupla com os números de 1 a 5 e imprima a tupla.
+#1
 tuplaNum = (1, 2, 3, 4, 5)
 print(tuplaNum)
 
-#2. Crie uma tupla com os nomes de três países e imprima o segundo elemento
-#da tupla.
-
+#2
 paises = ('Brasil', 'Portugal', 'Mocambique')
 i = 0
 for elemento in paises:
@@ -14,13 +12,11 @@ for elemento in paises:
   if i == 2:
     print(elemento)
 
-#3. Crie uma tupla com os valores de uma conta de restaurante (valor da refeição, taxa de serviço e valor total). Imprima a tupla.
-
+#3
 restaurante = ('V_refeição: 15,50' , 'Taxa : 5' , 'Valor total: 20,50')
 print (restaurante)
 
-#4. Crie uma tupla com os nomes de cinco pessoas e peça ao usuário para digitar um número entre 1 e 5. Imprima o nome correspondente ao número digitado.
-
+#4
 Nomes = ('paulo','luis','ramon','arthur','hansei')
 
 num = int(input("Digite u, número entre 1 a 5: "))
@@ -32,8 +28,7 @@ for elemento in Nomes:
   elif(num >= 6):
     print("Professor lINDO")
 
-#5. Crie uma tupla com as notas de um aluno em uma disciplina e imprima a média das notas.
-
+#5
 tuplaNota = (10, 6, 8)
 soma = 0
 for elemento in tuplaNota:
@@ -45,8 +40,7 @@ media = soma/3
 print(media)
 
 
-#6. Crie uma tupla com as cores do arco-íris (vermelho, laranja, amarelo, verde, azul, anil, violeta) e peça ao usuário para digitar uma cor. Verifique se a cor digitada está na tupla e imprima uma mensagem correspondente.
-
+#6
 Cor = ('vermelho', 'laranja', 'amarelo', 'verde', 'azul', 'anil', 'violeta')
 
 cor1 = (input("Digite uma cor: "))
@@ -57,8 +51,7 @@ else:
   print("A cor",cor1,"não existe no arco-íris!")
 
 
-#7. Crie uma tupla com as temperaturas de uma semana (sete dias) e imprima a temperatura máxima e mínima da semana.
-
+#7
 temp = (45, 32, 33, 37, 28, 34, 36)
 
 maior = 0
